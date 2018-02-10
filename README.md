@@ -71,7 +71,7 @@ The ExecutionHandler is the responsible party for communicating with the broker 
 
 #### Output
 Generates useful output for strategies performance.
-![alt text](Stats.png)
+![Alt text](Stats.PNG?raw=true)
 
 #### Portfolio
 The Portfolio Class is the life and blood of the backtesting engine. Here is where we store the NAV, current positions, interpret our signals from the strategy, ask the ExecutionHandler to execute our orders, and use the Fills from the ExecutionHandler to book our trades.
